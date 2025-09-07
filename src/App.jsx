@@ -4,7 +4,7 @@ import Users from "./pages/Users";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AlvaroSandy_fullstackReact">
       <Routes>
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
